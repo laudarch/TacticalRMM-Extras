@@ -1,14 +1,14 @@
-# Prepair your Environment
 Project Name: TRMM for Zabbix\
 Author: Bernardo Lankheet\
 Telegram: [@bernardolankheet](https://t.me/bernardolankheet)\
 Description EN: Collect Status Metrics on TacticalRMM . *It does not apply in environments that use table partitioning or other routines for maintaining the bank.*\
 
+# Prepair your Environment
 ### Steps:
 1. Enable core status on TacticalRmm. On: **TRMM: Tips and Tricks**
 2. Create Zabbix monitoring. On: **Zabbix: Instructions**
 
-## (TRMM Tips and Tricks)<https://docs.tacticalrmm.com/tipsntricks/#monitor-your-trmm-instance-via-the-built-in-monitoring-endpoint>
+## [TRMM Tips and Tricks](https://docs.tacticalrmm.com/tipsntricks/#monitor-your-trmm-instance-via-the-built-in-monitoring-endpoint)
 
 ### Monitor your TRMM Instance via the Built-in Monitoring Endpoint.
 Generate a random string to be used as a token and append it to the bottom of `/rmm/api/tacticalrmm/tacticalrmm/local_settings.py` like this:
