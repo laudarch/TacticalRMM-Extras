@@ -78,6 +78,8 @@ Template Macros:
    - {$LOW_DISK_UTIL}         = Used on Trigger **TRMM: Disk space is XXXXX**, value default: `93`
    - {$HIGH_MEMORY_UTIL}      = Used on Trigger **TRMM: High memory utilization**, value default: `97`
 
+4. Wait for collection time
+
 ### some screenshots
 ***monitoring values***
 
