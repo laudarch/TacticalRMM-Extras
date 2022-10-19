@@ -1,7 +1,7 @@
 Project Name: TRMM for Zabbix\
 Author: Bernardo Lankheet\
 Telegram: [@bernardolankheet](https://t.me/bernardolankheet)\
-Description EN: Collect Status Metrics on TacticalRMM . *It does not apply in environments that use table partitioning or other routines for maintaining the bank.*\
+Description EN: Collect Status Metrics on TacticalRMM .
 
 # Prepair your Environment
 ### Steps:
@@ -83,3 +83,6 @@ Template Macros:
 ***triggers***
 
 ![Triggers](./img/triggers.jpg)
+
+
+Obs: **Change macros, intervals and triggers according to your environment.**
