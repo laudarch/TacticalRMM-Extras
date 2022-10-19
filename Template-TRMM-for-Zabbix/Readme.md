@@ -69,7 +69,8 @@ Template Macros:
 2. link template to validator host
 
 3. configure host Macros
-   - {$RMM_API_URL}           = Tactical API address. **api.tacticalrmm.com**
+   - {$RMM_API_URL}           = Change Tactical API address. **api.tacticalrmm.com**
+   - {$API_KEY}               = Change API key, created earlier in this doc, in this example `SuperSekretToken123456`
    - {$HTTP}                  = http or https, default value `https`
    - {$TIME_API_DOWN}         = Used on Trigger **TRMM: API or WebService Down**, value default: `10m`
    - {$TIME_SERVICES_DOWN}    = Used on Trigger **TRMM: Service XXXXXX is Down**, value default: `15m`
