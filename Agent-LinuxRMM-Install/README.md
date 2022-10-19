@@ -1,3 +1,5 @@
+Original repo: https://github.com/netvolt/LinuxRMM-Script
+
 # rmmagent-script
 Script for one-line installing and update of tacticalRMM agent
 
