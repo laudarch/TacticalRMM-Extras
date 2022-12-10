@@ -92,6 +92,18 @@ if [[ $1 == "install" && $8 != "server" && $8 != "workstation" ]]; then
         exit 1
 fi
 
+if ! command -v unzip &> /dev/null
+then
+    echo "unzip cannot be found, it is needed.."    
+    exit
+fi
+
+if ! command -v wget &> /dev/null
+then
+    echo "wget cannot be found, it is needed..."
+    exit
+fi
+
 ## Setting var for easy scription
 system=$2
 mesh_url=$3
