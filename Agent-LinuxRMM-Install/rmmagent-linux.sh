@@ -222,6 +222,8 @@ install)
         agent_compile
         install_agent
         echo "Tactical Agent Install is done"
+        systemctl restart meshagent
+        systemctl restart tacticalagent
         exit 0;;
 update)
         go_install
